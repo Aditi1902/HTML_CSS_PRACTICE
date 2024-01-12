@@ -1,0 +1,52 @@
+body{
+    margin:30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-attachment: fixed;
+    background-image: url(https://www.rose-hulman.edu/class/csse/csse290-WebProgramming/images/silverware.jpg) ;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 22pt;
+    color: #A4A400;
+    text-decoration: underline 1.5px ;
+    background-color: #F0F0F0;
+    font-family: 'Lucida Sans Unicode', Arial, Helvetica, sans-serif;
+    word-spacing: 0.25em;
+}
+h2{
+    font-size: 18pt;
+    color: #A4A400;
+    text-decoration: underline 1.5px ;
+    background-color: #F0F0F0;
+    font-family: 'Lucida Sans Unicode', Arial, Helvetica, sans-serif;
+    word-spacing: 0.25em;
+}
+hr{
+    border: 1px solid;
+  border-radius: 1px;
+}
+.nobullets{
+list-style-type: none;
+padding: 0%;
+}
+
+li, p, div{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+abbr{
+    text-decoration: underline double dotted;
+}
+
+a{
+    color: #A4A400;
+}
+div{
+    background-color: #FFFFA8;
+    font-style: italic;
+    margin-left: 40px;
+    margin-right: 40px;
+}

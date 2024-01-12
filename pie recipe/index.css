@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(28, 28, 28, 0.9),rgba(61, 60, 66, 0.65)), url(/bakery\ background.jpg);
+    
+    background-position: center;
+    background-size: cover;
+    padding: 10px 8%;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items:center;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: right;
+    width: 100%;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: large;
+    
+}
+a:hover{
+    color: rgb(123, 85, 41);
+}
+nav ul li a{
+    color: rgb(255, 224, 188);
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content{
+    color: rgb(255, 255, 255) ;
+    margin-top: 5%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+.content h1{
+    margin-bottom: 10px;
+    line-height: 60px;
+}
+
+.glass{
+    background-image: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.glass h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+.text{
+    line-height: 40px;
+}
+.glass p{
+    font-style: italic;
+}
+.glass img{
+    height: 300px;
+}
+.glass a{
+    color: rgb(255, 224, 188);
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

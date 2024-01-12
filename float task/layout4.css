@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    padding: 20px;
+    background-color: rgb(109, 202, 233);
+}
+.para{
+    margin: 0;
+  
+}
+#container{
+    background-color: lightgray;
+    overflow: auto;
+    padding: 20px ;
+}
+#div1{
+    background-color: rgb(231, 126, 95);
+    
+    padding: 15px;
+}
+#div2{
+    background-color: rgb(144, 219, 144);
+padding: 15px;
+    float: right;
+    
+}
+#div3{
+    background-color: rgb(234, 173, 173);
+padding: 15px; 
+clear: both;   
+}
+#div4{
+    background-color: rgb(227, 226, 207);
+    padding: 15px;
+}
+#footer{
+    
+    padding: 20px;
+    background-color: rgb(109, 202, 233);
+}

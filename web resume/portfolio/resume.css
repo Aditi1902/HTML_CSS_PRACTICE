@@ -1,0 +1,40 @@
+body{
+    color: white;
+    background-color:#22396a;
+    font-family:Arial, Helvetica, sans-serif
+}
+header {
+text-align: center;
+margin: 50px;
+}
+h2{
+    color: #31bb66;
+    font-size: 2em;
+}
+section{
+    margin: 10px 100px ;
+    
+}
+h3{
+    font-size: 1.5em;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+p, h3, li{
+    margin: 26px;
+} 
+h2{
+    margin: 30px 26px;
+}
+footer{
+    background-color: rgb(31, 31, 69);
+    text-align: center;
+    margin: 26px 120px;
+    padding: 20px;
+}
+a{
+    color: red;
+    padding: 20px;
+}
